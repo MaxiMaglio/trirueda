@@ -45,6 +45,7 @@ void setup() {
   pinMode(LINE_SENSOR_LEFT, INPUT);
   pinMode(LINE_SENSOR_CENTER, INPUT);
   pinMode(LINE_SENSOR_RIGHT, INPUT);
+  pinMode(LINE_SENSOR_STOP, INPUT);
 
   // Habilitar motores
   pinMode(ENABLE1, OUTPUT);
